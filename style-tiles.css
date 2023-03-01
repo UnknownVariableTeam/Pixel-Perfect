@@ -1,0 +1,283 @@
+/* Type 0 :*/
+.tile_0_A{
+    background-image: url("textures/tiles/tileA1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(200deg);
+}
+.tile_0_B1{
+    background-image: url("textures/tiles/tileB1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(200deg);
+}
+.tile_0_B2{
+    background-image: url("textures/tiles/tileB1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(200deg);
+}
+.tile_0_B3{
+    background-image: url("textures/tiles/tileB1-3.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(200deg);
+}
+.tile_0_B4{
+    background-image: url("textures/tiles/tileB1-4.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(200deg);
+}
+.tile_0_C1{
+    background-image: url("textures/tiles/tileC1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(200deg);
+}
+.tile_0_C2{
+    background-image: url("textures/tiles/tileC1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(200deg);
+}
+.tile_0_C3{
+    background-image: url("textures/tiles/tileC1-3.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(200deg);
+}
+.tile_0_C4{
+    background-image: url("textures/tiles/tileC1-4.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(200deg);
+}
+.tile_0_D1{
+    background-image: url("textures/tiles/tileD1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(200deg);
+}
+.tile_0_D2{
+    background-image: url("textures/tiles/tileD1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(200deg);
+}
+
+/* Type 1 :*/
+.tile_1_A{
+    background-image: url("textures/tiles/tileA2.png");
+    filter: sepia(1) saturate(5) brightness(0.3) hue-rotate(200deg);
+}
+.tile_1_B1{
+    background-image: url("textures/tiles/tileB2-1.png");
+    filter: sepia(1) saturate(5) brightness(0.3) hue-rotate(200deg);
+}
+.tile_1_B2{
+    background-image: url("textures/tiles/tileB2-2.png");
+    filter: sepia(1) saturate(5) brightness(0.3) hue-rotate(200deg);
+}
+.tile_1_B3{
+    background-image: url("textures/tiles/tileB2-3.png");
+    filter: sepia(1) saturate(5) brightness(0.3) hue-rotate(200deg);
+}
+.tile_1_B4{
+    background-image: url("textures/tiles/tileB2-4.png");
+    filter: sepia(1) saturate(5) brightness(0.3) hue-rotate(200deg);
+}
+.tile_1_C1{
+    background-image: url("textures/tiles/tileC2-1.png");
+    filter: sepia(1) saturate(5) brightness(0.3) hue-rotate(200deg);
+}
+.tile_1_C2{
+    background-image: url("textures/tiles/tileC2-2.png");
+    filter: sepia(1) saturate(5) brightness(0.3) hue-rotate(200deg);
+}
+.tile_1_C3{
+    background-image: url("textures/tiles/tileC2-3.png");
+    filter: sepia(1) saturate(5) brightness(0.3) hue-rotate(200deg);
+}
+.tile_1_C4{
+    background-image: url("textures/tiles/tileC2-4.png");
+    filter: sepia(1) saturate(5) brightness(0.3) hue-rotate(200deg);
+}
+.tile_1_D1{
+    background-image: url("textures/tiles/tileD2-1.png");
+    filter: sepia(1) saturate(5) brightness(0.3) hue-rotate(200deg);
+}
+.tile_1_D2{
+    background-image: url("textures/tiles/tileD2-2.png");
+    filter: sepia(1) saturate(5) brightness(0.3) hue-rotate(200deg);
+}
+
+/* Type 2 :*/
+.tile_2_A{
+    background-image: url("textures/tiles/tileA1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(80deg);
+}
+.tile_2_B1{
+    background-image: url("textures/tiles/tileB1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(80deg);
+}
+.tile_2_B2{
+    background-image: url("textures/tiles/tileB1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(80deg);
+}
+.tile_2_B3{
+    background-image: url("textures/tiles/tileB1-3.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(80deg);
+}
+.tile_2_B4{
+    background-image: url("textures/tiles/tileB1-4.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(80deg);
+}
+.tile_2_C1{
+    background-image: url("textures/tiles/tileC1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(80deg);
+}
+.tile_2_C2{
+    background-image: url("textures/tiles/tileC1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(80deg);
+}
+.tile_2_C3{
+    background-image: url("textures/tiles/tileC1-3.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(80deg);
+}
+.tile_2_C4{
+    background-image: url("textures/tiles/tileC1-4.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(80deg);
+}
+.tile_2_D1{
+    background-image: url("textures/tiles/tileD1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(80deg);
+}
+.tile_2_D2{
+    background-image: url("textures/tiles/tileD1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(80deg);
+}
+
+/* Type 3 :*/
+.tile_3_A{
+    background-image: url("textures/tiles/tileA1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(-45deg);
+}
+.tile_3_B1{
+    background-image: url("textures/tiles/tileB1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(-45deg);
+}
+.tile_3_B2{
+    background-image: url("textures/tiles/tileB1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(-45deg);
+}
+.tile_3_B3{
+    background-image: url("textures/tiles/tileB1-3.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(-45deg);
+}
+.tile_3_B4{
+    background-image: url("textures/tiles/tileB1-4.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(-45deg);
+}
+.tile_3_C1{
+    background-image: url("textures/tiles/tileC1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(-45deg);
+}
+.tile_3_C2{
+    background-image: url("textures/tiles/tileC1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(-45deg);
+}
+.tile_3_C3{
+    background-image: url("textures/tiles/tileC1-3.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(-45deg);
+}
+.tile_3_C4{
+    background-image: url("textures/tiles/tileC1-4.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(-45deg);
+}
+.tile_3_D1{
+    background-image: url("textures/tiles/tileD1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(-45deg);
+}
+.tile_3_D2{
+    background-image: url("textures/tiles/tileD1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(-45deg);
+}
+
+/* type 4: */
+.tile_4_0{
+    background-image: url("textures/tiles/tileE.png");
+}
+
+/* type 6: */
+.tile_6_B1{
+    background-image: url("textures/tiles/tileB3-1.png");
+}
+.tile_6_B2{
+    background-image: url("textures/tiles/tileB3-2.png");
+}
+.tile_6_B3{
+    background-image: url("textures/tiles/tileB3-3.png");
+}
+.tile_6_B4{
+    background-image: url("textures/tiles/tileB3-4.png");
+}
+
+/* type 7: */
+.tile_7_A{
+    background-image: url("textures/tiles/tileA1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(260deg);
+}
+.tile_7_B1{
+    background-image: url("textures/tiles/tileB1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(260deg);
+}
+.tile_7_B2{
+    background-image: url("textures/tiles/tileB1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(260deg);
+}
+.tile_7_B3{
+    background-image: url("textures/tiles/tileB1-3.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(260deg);
+}
+.tile_7_B4{
+    background-image: url("textures/tiles/tileB1-4.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(260deg);
+}
+.tile_7_C1{
+    background-image: url("textures/tiles/tileC1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(260deg);
+}
+.tile_7_C2{
+    background-image: url("textures/tiles/tileC1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(260deg);
+}
+.tile_7_C3{
+    background-image: url("textures/tiles/tileC1-3.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(260deg);
+}
+.tile_7_C4{
+    background-image: url("textures/tiles/tileC1-4.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(260deg);
+}
+.tile_7_D1{
+    background-image: url("textures/tiles/tileD1-1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(260deg);
+}
+.tile_7_D2{
+    background-image: url("textures/tiles/tileD1-2.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(260deg);
+}
+
+/* type x: */
+.tile_x_A{
+    background-image: url("textures/tiles/tileA1.png");
+}
+.tile_x_B1{
+    background-image: url("textures/tiles/tileB1-1.png");
+}
+.tile_x_B2{
+    background-image: url("textures/tiles/tileB1-2.png");
+}
+.tile_x_B3{
+    background-image: url("textures/tiles/tileB1-3.png");
+}
+.tile_x_B4{
+    background-image: url("textures/tiles/tileB1-4.png");
+}
+.tile_x_C1{
+    background-image: url("textures/tiles/tileC1-1.png");
+}
+.tile_x_C2{
+    background-image: url("textures/tiles/tileC1-2.png");
+}
+.tile_x_C3{
+    background-image: url("textures/tiles/tileC1-3.png");
+}
+.tile_x_C4{
+    background-image: url("textures/tiles/tileC1-4.png");
+}
+.tile_x_D1{
+    background-image: url("textures/tiles/tileD1-1.png");
+}
+.tile_x_D2{
+    background-image: url("textures/tiles/tileD1-2.png");
+}

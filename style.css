@@ -1,0 +1,358 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #311a05;
+    color:#ffc18a;
+    image-rendering: pixelated;
+    font-family: PixelFont;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+#av-nodes{
+    position: absolute;
+    background-color: #00000088;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-image: url("textures/notepad.png");
+    background-size: 35%;
+    background-position-x: 44%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}
+    #av-nodes > svg{
+        position: absolute;
+        height: 70%;
+        width: 32.3%;
+        left: 30%;
+        top: 30%;
+        color: #000;
+        font-size: 35%;
+        /* font-size: calc(1vmax/1vmin); */
+    }
+
+a{
+    color: #ffc18a;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+#titlescreen, #box, #maingame{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#titlescreen{
+    height:70%;
+}
+
+    #levelmenu{
+        background-color: #8b5525;
+        display: flex;
+        width: 100vw;
+        height: calc(100vw*0.5);
+        max-height: 100vh;
+        max-width: calc(100vh*2);
+        margin: auto;
+        position: absolute;
+    }
+
+
+/* Game: */
+#box{
+    width: 100vmax;
+    height: 100vmax;
+    max-width: 100vmin;
+    max-height: 100vmin;
+}
+
+    #maingame{
+        width: 100vw;
+        height: calc(100vw*0.5);
+        max-height: 100vh;
+        max-width: calc(100vh*2);
+        margin: auto;
+        position: absolute;
+
+        background-color: #bb7130;
+        display: flex;
+        justify-content: flex-start;
+
+        background-image: url("textures/desk.png");
+        background-size: contain;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+    }
+
+    #screen{
+        width: 100%;
+        height: 66%;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+        #grid{
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: center;
+        }
+            #level{
+                width: 90%;
+                height: 78%;
+                margin-top: 1%;
+                /* background-color: #221204; */
+                background-image: url("textures/whiteboard.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                /*
+                contents of the whiteboard to whiteboard itself proportions: h = 0.90(18), w = 0,932307...
+                ratio of whiteboard insides: 2,4435483870967741935483870967742...
+                padding top+bottom: 1 - 0.90(18) = 0,09(81)
+                /2 = 0,04(90)
+                padding left+right: 1 - 0,932307 = 0,066793...
+                /2 = 0,0333965...
+                */
+                padding: 2% 3.33965%;
+                
+                border-style: solid;
+                /* border-color: #adadad; */
+                border-color: black;
+                border-width: 1%;
+                display:flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+            }  
+
+            #level > div{
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: stretch;
+                justify-content: center;
+                max-height: 100%;
+                max-width: 100%;
+            }
+
+            #level > div > div {
+                display: flex;
+                flex-flow: row nowrap;
+                flex-grow: 1;
+            }
+
+            #level > div > div > div{
+                /* border-radius: 1%;
+                border-color: black;
+                border-style: solid; */
+                flex-grow: 1;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                image-rendering: pixelated;
+            }
+
+            #MainMap{
+                position: relative;
+            }
+
+        #seq{
+            position: relative;
+            width: 30%; 
+            height: 98%; /*-2 for margin*/
+            background-image: url("textures/bg_seq_on.png");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        #level-name-author{
+            position: relative;
+            width: 85%;
+            height: 9%;
+            left: 8%;
+            /* background-color: #8b5525; */
+            color: black;
+            font-size: 100%;
+        }
+            #level-name-author > text{
+                position: absolute;
+                width: 100%;
+            }
+
+            #seq_b{
+                /* background-color: aqua; */
+                position: absolute;
+                width: 3%;
+                height: 2%;
+                top: 79.5%;
+                left: 69%;
+                z-index: 2;
+            }
+
+    #inv{
+        position: relative;
+        width: 100%;
+        height: 34%;
+    }
+
+        #inv>img:nth-child(1){
+            position: absolute;
+            height: 135%;
+            left: 2%;
+            bottom: 6%;
+            z-index: 11;
+        }
+        #inv>img:nth-child(1):hover{
+            filter: brightness(130%);
+        }
+
+        #inv>img:nth-child(2){
+            position: absolute;
+            height: 100%;
+            left: 20%;
+            bottom: 12%;
+        }
+
+        #inv>img:nth-child(3){
+            position: absolute;
+            height: 88%;
+            left: 78.5%;
+            bottom: 9%;
+            z-index: 1;
+        }
+        #inv>img:nth-child(3):hover{
+            filter: brightness(170%);
+        }
+
+        #inv>img:nth-child(4){
+            position: absolute;
+            height: 88%;
+            left: 78%;
+            bottom: 9%;
+        }
+
+#playerdeck{
+    /* background-color: rgba(90,0,0,0.5); */
+    position: absolute;
+    width: 79.5%;
+    height: 63.5%;
+    top: 9.75%;
+    left: 10.5%;
+    font-family: 'Courier New', Courier, monospace; /*temp*/
+    font-size: 100%;
+    color: #c0c060;
+    padding-top: 1%;
+}
+
+.alertinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    position: absolute;
+    z-index: -5;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: #00000088;
+    background-image: url("textures/infoalert.png");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center;
+}
+
+.alertinfo > svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 38.5%;
+    top: 37%;
+    width: 20%;
+    height: 19%;
+    font-size: 45.5%;
+}
+
+#infof1{
+    position: absolute;
+    height: 34%;
+    width: 54.6%;
+    left: 20%;
+    bottom: 4%;
+    z-index: -5;
+    background-color: #222;
+    background-image: url("textures/nodes/keyboard_l_3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#infof1 > img{
+    position: absolute;
+    height: 14.5%;
+    top: 0.6%;
+    left: 1.4%;
+}
+    #infof1 > img:hover{
+        filter: brightness(170%) contrast(170%);
+    }
+
+#infof1 > div{
+    position: absolute;
+    height: 64%;
+    width: 98%;
+    left: 1%;
+    bottom: 9%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+    #infof1 > div > div{
+        height: 100%;
+        flex-grow: 1;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #infof1 > div > div > *{
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+#return-a{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5%;
+    height: 2.6%;
+    top: 0;
+    left: 0;
+    background-color: black;
+}

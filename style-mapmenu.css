@@ -1,0 +1,187 @@
+body{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #311a05;
+    color:#ffc18a;
+    image-rendering: pixelated;
+    font-family: PixelFont;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#map-menu{
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: calc(100vw*1080/1920);
+    max-height: 100vh;
+    max-width: calc(100vh*1920/1080);
+    background-image: url("textures/titlescreen/level select base.png");
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+#map-menu > svg{
+    width: 80%;
+    height: 8%;
+    margin-bottom: 1%;
+}
+
+#map-menu > div{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+/* #map-menu > span{
+    margin-bottom: 3%;
+    font-size: 5vmin;
+} */
+#map-menu > div > a:not(.turn){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-grow: 1; */
+    width: 10%;
+    margin:1%;
+    aspect-ratio: 1;
+    text-decoration: none;
+    font-size: 3vmin;
+}
+
+#map-menu > div > a.complete{
+    background-image: url("textures/tiles/tileA1.png");
+    filter: sepia(1) saturate(5) brightness(0.8) hue-rotate(100deg);
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    color: #1b0e01;
+}
+
+#map-menu > div >  a.complete:hover{
+    color: #8a6037;
+    filter: sepia(1) saturate(5) brightness(0.5) hue-rotate(-80deg);
+}
+
+#map-menu > div > a.incomplete{
+    background-image: url("textures/tiles/tileA1.png");
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    color: grey;
+}
+
+#map-menu > div >  a.incomplete:hover{
+    color: lightgrey;
+    filter: brightness(0.5);
+}
+
+#map-menu > div >  a.empty{
+    color: transparent;
+    background: none;
+}
+
+#mapnav{
+    height: 10%;
+    color: #222;
+}
+
+#mapnav>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: #ccc;
+}
+
+#mapnav>a:hover{
+    color: white;
+    background-color: #222;
+}
+
+#return-a{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5%;
+    height: 2.6%;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+select{
+    width: 200px;
+ 
+    border: solid 3px #ffc18a;
+    border-radius: 10px;
+    
+    color: white;
+    font-size: medium;
+    background-color: rgb(80, 80, 80);
+}
+
+select:focus{
+    outline: none;
+    border: 3px solid #00bfff;
+}
+select:hover{
+    outline: none;
+    background-color: rgb(100, 100, 100);
+}
+
+input{
+    width: 8vw;
+
+    border: solid 3px #ffc18a;
+    border-radius: 10px;
+    
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(80, 80, 80);
+
+    margin: 5px;
+}
+input:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+input:focus{
+    outline: none;
+    border: 3px solid #00bfff;
+}
+
+#Delete{
+    margin: 0px;
+    width:80px;
+    border: solid 3px red;
+    border-radius: 10px;
+}
+#Play{
+    border: solid 3px greenyellow;
+    width: 100px;
+}
+
+form{
+    width: 25vw;
+}
+
+option {
+    box-shadow: 0 0 10px 100px #000 inset;
+    color: white;
+    font-size: medium;
+    background: rgb(50, 50, 50) !important;
+}

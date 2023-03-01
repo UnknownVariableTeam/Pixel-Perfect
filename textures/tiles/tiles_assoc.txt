@@ -1,0 +1,23 @@
+Tiles:
+0	path
+1	wall
+2	spawn
+3	target
+4	portal
+5	void
+
+Variants:
+A - enclosed (default)
+B:
+	1 - without south wall
+	2 - without west wall
+	3 - without north wall
+	4 - without east wall
+C:
+	1 - NE
+	2 - SE
+	3 - SW
+	4 - NW
+D:
+	1 - N+S
+	2 - W+E
