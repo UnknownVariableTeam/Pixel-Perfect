@@ -232,6 +232,11 @@
         echo "\n\t\t\t\t";
         echo "let levelcols = '$levelcols'";
         ?>
+        //iscustom?
+        let returna = document.getElementById("return-a");
+        if(iscustom == 1){
+            returna.href = "custom.php";
+        }
         //==================================
         //game:
         //==================================
@@ -1337,9 +1342,9 @@
                                         }
                                         break;
                                     case 'f':
-                                        if(bb_con_tile[0].split(".")[0]!=bb_tile ||
-                                            bb_con_tile[1].split(".")[0]!=bb_tile ||
-                                            bb_con_tile[2].split(".")[0]!=bb_tile ||
+                                        if(bb_con_tile[0].split(".")[0]!=bb_tile &&
+                                            bb_con_tile[1].split(".")[0]!=bb_tile &&
+                                            bb_con_tile[2].split(".")[0]!=bb_tile &&
                                             bb_con_tile[3].split(".")[0]!=bb_tile
                                         ){
                                             bb_conmet = true;
@@ -1489,9 +1494,9 @@
                                         }
                                         break;
                                     case 'f':
-                                        if(bc_con_tile[0].split(".")[0]!=bc_tile ||
-                                            bc_con_tile[1].split(".")[0]!=bc_tile ||
-                                            bc_con_tile[2].split(".")[0]!=bc_tile ||
+                                        if(bc_con_tile[0].split(".")[0]!=bc_tile &&
+                                            bc_con_tile[1].split(".")[0]!=bc_tile &&
+                                            bc_con_tile[2].split(".")[0]!=bc_tile &&
                                             bc_con_tile[3].split(".")[0]!=bc_tile
                                         ){
                                             bc_conmet = true;
