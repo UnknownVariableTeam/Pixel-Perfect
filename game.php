@@ -341,7 +341,7 @@
         function showinfo(showinfomode){
             switch(showinfomode){
                 case true:
-                    infof1.style.zIndex = 13;
+                    infof1.style.zIndex = 4;
                     break;
                 case false:
                     infof1.style.zIndex = -5;
@@ -1427,25 +1427,25 @@
                                         }
                                         break;
                                     case 'b':
-                                        if(bc_con_tile[0].split(".")[0]==bc_tile){
+                                        if(bc_con_tile[1].split(".")[0]==bc_tile){
                                             bc_conmet = true;
                                             console.log("condition met: tile "+bc_tile+" south");
                                         }
                                         break;
                                     case 'c':
-                                        if(bc_con_tile[0].split(".")[0]==bc_tile){
+                                        if(bc_con_tile[2].split(".")[0]==bc_tile){
                                             bc_conmet = true;
                                             console.log("condition met: tile "+bc_tile+" east");
                                         }
                                         break;
                                     case 'd':
-                                        if(bc_con_tile[0].split(".")[0]==bc_tile){
+                                        if(bc_con_tile[3].split(".")[0]==bc_tile){
                                             bc_conmet = true;
                                             console.log("condition met: tile "+bc_tile+" west");
                                         }
                                         break;
                                     case 'e':
-                                        if(bc_con_tile[0].split(".")[0]==bc_tile){
+                                        if(bc_con_tile[4].split(".")[0]==bc_tile){
                                             bc_conmet = true;
                                             console.log("condition met: tile "+bc_tile+" self");
                                         }

@@ -15,7 +15,6 @@
         }else{
             $looprange = count($savearr);
         }
-        
         $sinput = "";
         for($i = 0; $i < $looprange; $i++){
             if($i+1 == $li){
